@@ -1,3 +1,109 @@
+*{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background-color: black
+}
+
+.head{
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+nav{
+    text-align: right;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: red;
+}
+
+section{
+    text-align: center;
+}
+#h1{
+    font-size: 2.5cm;
+    font-weight: 900;
+}
+
+#h3{
+    font-size: 1.5cm;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-contant: space-evenly;
+}
+
+.box{
+    height: 10cm;
+    width: 22%;
+    background-color: black;
+    text-align: center;
+    margin: 1em;
+    overflow: scroll;
+}
+
+.box-img{
+    height: 100px;
+    background-size: cover;
+    margin-top: 0.5cm;
+}
+
 p{
-    color: aqua;
+    font-size: 0.6em;
+}
+
+.audio-container{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+.audio {
+     margin-bottom: 0.5cm;
+}
+
+.audio p{
+    float: right;
+    font-size: smaller;
+    margin:0.5cm;
+}
+
+.card-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card{
+    box-shadow: 0 4px 8px 0 black;
+    transition: 0.5s;
+    width: 45%;
+    text-align: center;
+
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px 0 red;
+}
+
+footer{
+    text-align: center;
+    font-size: 0.9em;
+}
+
+@media only screen and (min-width:400px){
+    
 }
